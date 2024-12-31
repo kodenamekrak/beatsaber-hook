@@ -54,6 +54,7 @@ struct StringWrapper;
 #include "typedefs-string.hpp"
 #include "typedefs-list.hpp"
 #include "typedefs-wrappers.hpp"
+#include "typedefs-dictionary.hpp"
 
 #include <stdint.h>
 
