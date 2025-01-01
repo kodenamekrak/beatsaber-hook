@@ -479,7 +479,7 @@ namespace il2cpp_utils {
             static auto logger = il2cpp_utils::Logger;
             auto thread_id = current_thread_id();
             try {
-                logger.error("Invoking function in thread id {}", thread_id);
+                logger.info("Invoking function in thread id {}", thread_id);
                 return std::invoke(std::forward<Func>(func), std::forward<TArgs>(args)...);
             } catch (RunMethodException const& e) {
                 logger.error("Exception in thread with thread id {}", thread_id);
